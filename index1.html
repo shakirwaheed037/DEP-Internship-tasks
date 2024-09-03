@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Fruits</title>
+
+
+
+    <style>
+        .container-form {
+            display: flex;
+            justify-content: center;
+        }
+
+        table tr td {
+            /* border: 1px solid; */
+        }
+
+        .container-fluid{
+            text-align: center;
+        }
+        .footer {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <!-- NAV-BAR OF HEADER -->
+
+    <div class="container-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" style="font-family: Wide Latin;" style="color: red;">FRUITS</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 btn-outline-light" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- MAIN BODY  carousel-->
+    <div class="alert alert-danger" role="alert">
+        See Your Favourate
+    </div>
+    <div class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/fruit03.jpg" class="d-block w-100" alt="fruit01">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/fruit01.jpg" class="d-block w-100" alt="fruit02">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/fruit02.jpg" class="d-block w-100" alt="fruit03">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/fruit04.jpg" class="d-block w-100" alt="fruit03">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/fruits05.jpg" class="d-block w-100" alt="fruit03">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <!-- CARDS MAIN BODY -->
+    <div class="alert alert-info" role="alert">
+        <h4>Our Services</h4>
+    </div>
+
+    <div class="services-container my-4">
+        <div class="card-group">
+            <div class="card">
+                <img src="image/card01.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fruits Our Health</h5>
+                    <p class="card-text">Fruits in our health is very better and real mean when a person eat different
+                        furits like apple ... </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/card02.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Most Usable Fruits</h5>
+                    <p class="card-text">Many people eat fruits in life and daily routine such as apple because apple is
+                        good for health and there is one proverb like if a person eat apple daily then not need doctor
+                        ... </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/card03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fruits in Many Country</h5>
+                    <p class="card-text">There is many country is very more good on the basis of fruits and vegetable
+                        like Pakistan , Afghanistan, India etc And these country transfer fruits and vegetabgle from one
+                        country to another ...</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FURITS GARLLERY -->
+    <div class="alert alert-primary" role="alert">
+        <h4>Fruits Tabel</h4>
+    </div>
+
+
+    <center>
+        <table class="table table-borderless">
+            <tr>
+                <th>SNo.</th>
+                <th>Fruits Name</th>
+                <th>Price</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>200 kg</td>
+                <td><img src="image/apple2.jpg" width="50px"></td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>strawberry</td>
+                <td>100 kg</td>
+                <td><img src="image/strabeery.jpg" width="50px"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Banana</td>
+                <td>150 Dozen</td>
+                <td><img src="image/banana.jpg" width="50px"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mango</td>
+                <td>150 kg</td>
+                <td><img src="image/mango.jpg" width="50px"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>pomegrante</td>
+                <td>300 kg</td>
+                <td><img src="image/pomegrante.jpg" width="50px"></td>
+            </tr>
+
+        </table>
+    </center>
+<!-- about us -->
+<div class="alert alert-success" role="alert">
+    <h4>About Us</h4>
+</div>
+<div class="container-fluid">
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non placeat soluta, error aper
+        iam cum laudantium, magni explicabo, rem minima molestiae facilis. Et velit consequatur 
+        dolore, itaque illo inventore quam perferendis d
+        ucimus, fugiat facilis, quo rerum officiis. Ullam at excepturi, numquam autem est adipisci sunt totam.
+    </p>
+  </div>
+    <!-- CONTACT -->
+    <div class="alert alert-success" role="alert">
+        <h4>Contact Us</h4>
+    </div>
+    <br>
+
+    <div class="container-form">
+        <form>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <br>
+    <!-- FOOTER OF FURITS WEB -->
+    <div class="footer">
+        <pre>@ 2024 fruits.com in its  afficitlates</pre>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
